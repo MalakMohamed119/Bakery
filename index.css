@@ -1,0 +1,268 @@
+.head button{
+    float: right ;
+    border: 0px;
+    padding: 20px;
+    text-align: center;
+    background-color:transparent;
+    font-size: larger;
+}
+.clear{
+    clear: right;
+}
+#logo{
+    width: 15%;
+ 
+}
+.head{
+padding:0px 10% 0px 10% ;
+}
+.back{
+    background-image: url(/photos/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 800px;   
+
+}
+.back h1,h2,p{
+    text-align: center;
+    color: white;
+
+}
+.text{
+padding-top: 20%;
+font-size: larger;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.butn{
+    text-align: center;
+    padding: 20px 20px 20px 40px;
+}
+#us{
+    background-color: transparent;
+    border-radius: 5px;
+    height: 60px;
+    width: 110px;
+    color: white;
+    font-size: larger;
+    font-size:15px;
+border-color: white;
+  
+}
+#learn {
+   background-color: #8e7754;
+   border-radius: 5px;
+   height: 60px;
+    width: 110px;
+    color: white;
+    font-size:15px;
+    border-color: transparent;
+
+}
+.who {
+    padding: 80px 0;
+    overflow: hidden; 
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.photo {
+    float: left;
+    width: 50%;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+.bread-img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+
+.texts {
+    float: right;
+    width: 50%;
+    padding-left: 50px;
+    box-sizing: border-box; 
+}
+
+
+.texts h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #0e0c0c;
+}
+
+.texts p {
+    font-size: 16px;
+    color: #5b5454;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.features {
+    list-style-type: none;
+    
+}
+
+.features li {
+    
+    padding-left: 40px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #a19797;
+}
+
+.feature-icon {
+
+    left: 0;
+    top: 50%;
+    width:30px;
+    height: 30px;
+}
+
+
+.contact{
+    padding: 80px 0;
+    overflow: hidden; 
+    background-color: rgb(241, 240, 240);
+}
+.contact .texts {
+    float: left;
+    width: 50%;
+    padding-right: 50px;
+    box-sizing: border-box;
+   
+}
+
+
+.lo{
+    width: 100%;
+    max-width: 600px;
+    margin: 60px ;
+}
+
+
+.d{
+    margin:0px 10%  0px 20% ;
+
+}
+.b{
+    width: 100%;
+     
+}
+.c1{
+    
+    width: 30%; 
+   float: left ;
+   padding: 10px;
+}
+
+.d img{
+    width: 100%;
+}
+.textsss {
+    text-align: center;
+    width: 50%;
+    padding-left: 50px;
+   
+}
+
+
+.textsss h2 {
+    font-size: 32px;
+    color: #0e0c0c;
+}
+
+.textsss p {
+    color: #5b5454;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+.nw{
+text-align: center;
+margin-left: 40%;
+margin-right:30%;
+}
+.clear1{
+    clear: left;
+}
+#dd {
+    background-color: #666363;
+    padding: 60px 0;
+    width: 100%;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.c2 {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.textsss {
+    text-align: left;
+    padding: 0 10px;
+}
+
+.textsss h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.textsss p {
+    color: #bbb;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.textsss ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.textsss li {
+    color: #bbb;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+
+
+.clear1 {
+    clear: both;
+}
+br{
+    color: white;
+}
+.footerr {
+    background-color: #353131;
+}
+#final{
+    margin-left: 40%;
+    width: 20%;
+   
+ 
+}
+.footerr .img{
+    margin-left: 44%
+}
