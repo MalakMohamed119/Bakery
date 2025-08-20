@@ -1,6 +1,6 @@
 # 🥐 Bakery Website  
 
-A responsive bakery shop website built with *Bootstrap* and modern design.  
+A responsive bakery shop website built with **Bootstrap** and modern design.  
 
 ## 🚀 Features  
 - Responsive design for all devices  
