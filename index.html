@@ -6,193 +6,210 @@
   <title>Family Bakery</title>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/all.min.css" />
-  <link rel="stylesheet" href="css/index.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/index.css" />
 </head>
 <body>
 
-<!-- Navbar -->
-<nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top">
+<nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation">
   <div class="container">
-    <a class="navbar-brand" href="#home">
-      <img id="navbarLogo" src="photos/bakery-light-1.png" alt="Logo" style="height: 50px;">
+    <a class="navbar-brand" href="#home" aria-label="Family Bakery home">
+      <img id="navbarLogo" src="photos/bakery-light-1.png" alt="Family Bakery" />
     </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarContent">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarContent" aria-controls="mainNavbarContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="mainNavbarContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#about">Who We Are</a></li>
+        <li class="nav-item"><a class="nav-link" href="#location">Location</a></li>
         <li class="nav-item"><a class="nav-link" href="#baking">Our Baking</a></li>
         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        <li class="nav-item"><a class="nav-link" href="#About">About Us</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- Home Section -->
-<section id="home" class="home-section d-flex flex-column justify-content-center align-items-center text-white text-center" style="height: 100vh; background-image: url('photos/drew-coffman-1872.jpg'); background-size: cover; background-position: center;">
-  <h2 class="fs-4 mb-2">Welcome to</h2>
-  <h1 class="display-4 fw-bold mb-3">Family Bakery</h1>
-  <p class="lead mb-4">We're the biggest, best equipped and most advanced Bakery in the greater Los Angeles area.</p>
-  <div>
-    <a href="#about" class="btn btn-outline-light me-2">Learn More</a>
-    <a href="#contact" class="btn btn-light">Contact Us</a>
-  </div>
-</section>
-
-<!-- Who We Are Section -->
-<section id="about" class="py-5 bg-light">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 mb-4 mb-md-0 text-center">
-        <img src="photos/alexandru-stavrica-170390-800x760.jpg" alt="bread" class="img-fluid rounded" style="max-width: 80%; height: auto;">
-      </div>
-      <div class="col-md-6">
-        <h2 class="text-brown">Who we are?</h2>
-        <p class="text-muted">We have been operating for over 30 years... Everyday it makes our lives better.</p>
-        <ul class="list-unstyled">
-          <li class="mb-2"><i class="fas fa-leaf text-brown me-2"></i> We care about environment.</li>
-          <li class="mb-2"><i class="fas fa-user-check text-brown me-2"></i> We are trusted by hundreds of clients.</li>
-          <li class="mb-2"><i class="fas fa-heart text-brown me-2"></i> Social media loves us!</li>
-          <li class="mb-2"><i class="fas fa-list text-brown me-2"></i> This list is super easy to create.</li>
-        </ul>
+<main>
+  <section id="home" class="home-section">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content text-white">
+      <p class="eyebrow">Welcome to</p>
+      <h1>Family Bakery</h1>
+      <p class="hero-copy">Fresh artisan breads, pastries, and slow-made bakery classics crafted every morning for the neighborhood table.</p>
+      <div class="hero-actions">
+        <a href="#about" class="btn btn-brand">Learn More</a>
+        <a href="#contact" class="btn btn-ghost">Contact Us</a>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Our Location -->
-<section id="location" class="py-5">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 order-md-2 text-center mb-4 mb-md-0">
-        <img src="photos/full-2-800x640.jpg" alt="Our Location" class="img-fluid rounded shadow" style="max-width: 90%;">
-      </div>
-      <div class="col-md-6 order-md-1">
-        <h2 class="text-brown mb-3">Our Location</h2>
-        <p class="text-muted">We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better Story on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better..</p>
+  <section id="about" class="section-pad section-soft">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <div class="image-frame">
+            <img src="photos/alexandru-stavrica-170390-800x760.jpg" alt="Fresh bread on a bakery table" class="img-fluid" />
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <p class="section-kicker">Who we are</p>
+          <h2>Honest baking, warm service, and a daily rhythm you can taste.</h2>
+          <p class="section-copy">For more than 30 years, our ovens have turned simple ingredients into loaves, pastries, and sweet moments worth slowing down for.</p>
+          <ul class="feature-list list-unstyled">
+            <li><i class="fas fa-leaf"></i><span>Responsibly sourced ingredients and thoughtful production.</span></li>
+            <li><i class="fas fa-user-check"></i><span>Trusted by generations of local families and cafes.</span></li>
+            <li><i class="fas fa-heart"></i><span>Baked fresh in small batches with a handmade finish.</span></li>
+            <li><i class="fas fa-bread-slice"></i><span>Classic recipes refined for modern tastes.</span></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Our Baking -->
-<section id="baking" class="py-5">
-  <div class="container text-center">
-    <h2 class="text-brown mb-3">Our Baking</h2>
-    <p class="text-muted mb-5">Learn more about them. We have worked truly hard to make them perfect for every use.</p>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card border-0">
-          <img src="photos/ben-garratt-134774-600x500.jpg" class="card-img-top rounded" alt="Superior Breads">
-          <div class="card-body">
-            <h5 class="card-title text-brown">Superior Breads</h5>
-            <p class="card-text text-muted">Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper mauris velit a velit. Phasellus commodo turpis et lacinia posuere.</p>
+  <section id="location" class="section-pad">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6 order-lg-2">
+          <div class="image-frame image-frame-offset">
+            <img src="photos/full-2-800x640.jpg" alt="Inside the Family Bakery shop" class="img-fluid" />
           </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card border-0">
-          <img src="photos/stas-ovsky-123540-600x500.jpg" class="card-img-top rounded" alt="Bagels">
-          <div class="card-body">
-            <h5 class="card-title text-brown">Bagels</h5>
-            <p class="card-text text-muted">Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper mauris velit a velit. Phasellus commodo turpis et lacinia posuere.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card border-0">
-          <img src="photos/clem-onojeghuo-206832-600x500.jpg" class="card-img-top rounded" alt="Cookies">
-          <div class="card-body">
-            <h5 class="card-title text-brown">Cookies</h5>
-            <p class="card-text text-muted">Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper mauris velit a velit. Phasellus commodo turpis et lacinia posuere.</p>
+        <div class="col-lg-6 order-lg-1">
+          <p class="section-kicker">Our location</p>
+          <h2>A calm corner for morning coffee, fresh bread, and easy conversation.</h2>
+          <p class="section-copy">Stop by for warm loaves from the oven, a pastry on the way to work, or a quiet table when the day needs a softer start.</p>
+          <div class="stats-row">
+            <div>
+              <strong>30+</strong>
+              <span>Years baking</span>
+            </div>
+            <div>
+              <strong>7</strong>
+              <span>Days open</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>Fresh daily</span>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Contact -->
-<section id="contact" class="py-5 bg-light">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 mb-4 mb-md-0">
-        <h2 class="text-brown mb-4">Contact Information</h2>
-        <p class="text-muted mb-4">I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-        <ul class="list-unstyled">
-          <li class="mb-2"><i class="fas fa-map-marker-alt text-brown me-2"></i> Manchester St 123-78B, Random 713, UK</li>
-          <li class="mb-2"><i class="fas fa-phone text-brown me-2"></i> +46 123 456 789</li>
-          <li class="mb-2"><i class="fas fa-envelope text-brown me-2"></i> hello@sitename.com</li>
-        </ul>
+  <section id="baking" class="section-pad section-soft">
+    <div class="container">
+      <div class="section-heading text-center mx-auto">
+        <p class="section-kicker">Our baking</p>
+        <h2>Fresh from the oven</h2>
+        <p class="section-copy">A focused menu of bakery staples made for breakfast tables, coffee breaks, and slow weekend mornings.</p>
       </div>
-      <div class="col-md-6 text-center">
-        <img src="photos/vt.webp" alt="Contact Image" class="img-fluid rounded shadow">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <article class="product-card">
+            <img src="photos/ben-garratt-134774-600x500.jpg" alt="Superior breads" />
+            <div class="product-card-body">
+              <h3>Superior Breads</h3>
+              <p>Crusty, aromatic loaves with tender interiors and a deeply satisfying finish.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="product-card">
+            <img src="photos/stas-ovsky-123540-600x500.jpg" alt="Bagels with seeds" />
+            <div class="product-card-body">
+              <h3>Bagels</h3>
+              <p>Chewy, golden, and ready for everything from cream cheese to smoked salmon.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="product-card">
+            <img src="photos/clem-onojeghuo-206832-600x500.jpg" alt="Fresh bakery cookies" />
+            <div class="product-card-body">
+              <h3>Cookies</h3>
+              <p>Buttery bakery treats with crisp edges, soft centers, and everyday charm.</p>
+            </div>
+          </article>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section id ="About" class="about-section py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 about-column">
-        <h2>About us</h2>
-        <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur.</p>
-        <p class="highlight">We are the champions!</p>
+  <section id="contact" class="section-pad">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <p class="section-kicker">Contact</p>
+          <h2>Visit us or place a fresh order.</h2>
+          <p class="section-copy">Questions about today&apos;s bake, special orders, or catering? Reach out and we&apos;ll help you choose the right box, tray, or loaf.</p>
+          <ul class="contact-list list-unstyled">
+            <li><i class="fas fa-map-marker-alt"></i><span>Manchester St 123-78B, Random 713, UK</span></li>
+            <li><i class="fas fa-phone"></i><span>+46 123 456 789</span></li>
+            <li><i class="fas fa-envelope"></i><span>hello@sitename.com</span></li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div class="image-frame contact-image">
+            <img src="photos/vt.webp" alt="Bakery location map" class="img-fluid" />
+          </div>
+        </div>
       </div>
-
-      <div class="col-md-3 about-column">
-        <h3>Opening Hours</h3>
-        <ul class="hours-list">
-          <li>Monday 10AM - 9PM</li>
-          <li>Tuesday 10AM - 9PM</li>
-          <li>Wednesday 10AM - 9PM</li>
-          <li>Thursday 10AM - 10PM</li>
-          <li>Friday 10AM - 10PM</li>
-          <li>Weekends 10AM - 11PM</li>
-        </ul>
-      </div>
-
-      <div class="col-md-3 about-column">
-        <h3>Contact Details</h3>
-        <ul class="contact-list">
-          <li><i class="fas fa-map-marker-alt"></i> Manchester Road 123-78B</li>
-          <li><i class="fas fa-phone"></i> +46 123 456 789</li>
-          <li><i class="fas fa-envelope"></i> hello@altername.com</li>
-          <li><i class="fas fa-globe"></i> http://www.altername.com</li>
-        </ul>
-      </div>
-
-      <div class="col-md-3 about-column">
-        <h3>Why we are special?</h3>
-        <ul class="feature-list">
-          <li>Our magical recipe.</li>
-          <li>We care about environment.</li>
-          <li>We are trusted by hundreds of clients.</li>
-          <li>Social media loves us!</li>
-          <li>This list is super easy to create.</li>
-        </ul>
-      </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- Footer -->
-<footer class="py-4 text-center footer-custom">
-  <div class="container">
-    <div class="logo-wrapper mb-2">
-      <img id="footerLogo" src="photos/bakery-light-1.png" alt="Logo" style="height: 50px;">
+  <section id="about-us" class="info-section">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <h2>About us</h2>
+          <p>Family Bakery is built around careful craft, friendly service, and the smell of bread just out of the oven.</p>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h3>Opening Hours</h3>
+          <ul class="detail-list">
+            <li>Monday 10AM - 9PM</li>
+            <li>Tuesday 10AM - 9PM</li>
+            <li>Wednesday 10AM - 9PM</li>
+            <li>Thursday 10AM - 10PM</li>
+            <li>Friday 10AM - 10PM</li>
+            <li>Weekends 10AM - 11PM</li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h3>Contact Details</h3>
+          <ul class="detail-list icon-detail-list">
+            <li><i class="fas fa-map-marker-alt"></i> Manchester Road 123-78B</li>
+            <li><i class="fas fa-phone"></i> +46 123 456 789</li>
+            <li><i class="fas fa-envelope"></i> hello@altername.com</li>
+            <li><i class="fas fa-globe"></i> www.altername.com</li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <h3>Why we are special</h3>
+          <ul class="detail-list">
+            <li>Signature recipes.</li>
+            <li>Fresh daily production.</li>
+            <li>Trusted local service.</li>
+            <li>Warm, simple hospitality.</li>
+            <li>Quality ingredients.</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <p class="mb-2 text-light">© 2025 Family Bakery. All rights reserved.</p>
-    <div>
-      <a href="#" class="text-light me-3"><i class="fab fa-facebook fa-lg"></i></a>
-      <a href="#" class="text-light me-3"><i class="fab fa-twitter fa-lg"></i></a>
-      <a href="#" class="text-light"><i class="fab fa-instagram fa-lg"></i></a>
+  </section>
+</main>
+
+<footer class="footer-custom text-center">
+  <div class="container">
+    <img id="footerLogo" src="photos/bakery-light-1.png" alt="Family Bakery" />
+    <p>Copyright 2026 Family Bakery. All rights reserved.</p>
+    <div class="social-links" role="group" aria-label="Social links">
+      <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
     </div>
   </div>
 </footer>
