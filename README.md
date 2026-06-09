@@ -1,17 +1,22 @@
-# 🥐 Bakery Website  
+# Bakery 🥖
 
-A responsive bakery shop website built with **Bootstrap** and modern design.  
+A responsive bakery website showcasing products and services with a clean and professional interface.
 
-## 🚀 Features  
-- Responsive design for all devices  
-- Modern UI with Bootstrap  
-- Interactive navigation  
+🔗 Live Demo: https://bakery-roan-seven.vercel.app
 
-## 🛠️ Tech Stack  
-- HTML5  
-- CSS3  
-- Bootstrap  
 
-## 🔗 Links  
-- [📂 GitHub Repo](https://github.com/MalakMohamed119/Bakery)  
-- [🌍 Live Demo](https://malakmohamed119.github.io/Bakery/)  
+## ✨ Features
+
+* Responsive Website Layout
+* Product Showcase
+* Service Sections
+* Clean User Interface
+* Bootstrap Grid System
+
+## 🛠️ Tech Stack
+
+* HTML5
+* CSS3
+* Bootstrap 5
+
+Built with ❤️ using Bootstrap.
