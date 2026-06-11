@@ -12,13 +12,14 @@ document.addEventListener("DOMContentLoaded", function () {
     function handleScroll() {
       const homeBottom = homeSection.offsetTop + homeSection.offsetHeight;
       const scrollPosition = window.scrollY + 80;
+      const isMobileNav = window.matchMedia("(max-width: 767.98px)").matches;
   
       if (scrollPosition >= homeBottom) {
         navbar.classList.add("navbar-scrolled");
         logo.src = "photos/bakery-color.png";  
       } else {
         navbar.classList.remove("navbar-scrolled");
-        logo.src = "photos/bakery-light-1.png"; 
+        logo.src = isMobileNav ? "photos/bakery-color.png" : "photos/bakery-light-1.png"; 
       }
 
       const currentSection = sections.reduce(function (activeSection, section) {
